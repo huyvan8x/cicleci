@@ -10,7 +10,6 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - run: npm test
 
   deploy:
     working_directory: /home/timeago
